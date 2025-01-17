@@ -488,9 +488,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 chat_id=LOG_CHANNEL,
                 file_id=file_id,
             )
-            fileName = {quote_plus(get_name(log_msg))}
-            stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+            fileName = {quote_plus(get_name())}
+            stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name())}?hash={get_hash()}"
+            download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name())}?hash={get_hash()}"
 
             xo = await query.message.reply_text(f'🔐')
             await asyncio.sleep(1)
