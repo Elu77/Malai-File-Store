@@ -56,8 +56,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❤️‍🔥 JOIN NOW ❤️‍🔥', url='https://t.me/Niramovies_LinkZz')
             ],[
-            InlineKeyboardButton('', url=''),
-            InlineKeyboardButton('', url='')
+            InlineKeyboardButton('⚡Movie request Group⚡', url='https://t.me/+mlf-08kRl4hiZGY1'),
+            InlineKeyboardButton('⚡Movie request Group 2.0⚡', url='https://t.me/+dfQG6KQYHn1jNmE1')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -408,12 +408,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('❤️‍🔥 JOIN NOW ❤️‍🔥', url='https://t.me/Niramovies_LinkZz')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('', url=''),
+            InlineKeyboardButton('', url='')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
+            InlineKeyboardButton('', callback_data='clone')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
